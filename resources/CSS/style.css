@@ -8,8 +8,8 @@ body {
 #header {
   text-align: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-size: cover;
   background-position: center;
-
   background-repeat: no-repeat;
 
 
@@ -21,6 +21,7 @@ body {
 }
 #header li {
   list-style-type: none;
+  padding: 10px 0;
 
 }
 #header li a {
@@ -44,11 +45,15 @@ body {
 }
 /***solo***/
 #solo {
+  padding: 1px 0;
   text-align: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-#solo h4 {
-  font-size: 23px;
+#solo h3 {
+  font-size: 30px;
   font-weight: bold;
   color: white;
 }
@@ -65,17 +70,11 @@ body {
 }
 /***footer***/
 #footer {
+  background-color: Gray;
 
 }
-#footer p {
-  float: left;
-}
-#footer ul {
-
-}
-#footer li {
-  display: inline;
-  padding-left: 35px;
-  padding-top: 30px;
-
+#footer p, a {
+  text-decoration: none;
+  color: white;
+  padding-left: 7px;
 }
